@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Polkadot Wallet Extension",
+    "version": "1.0",
+    "description": "A simple Polkadot wallet extension",
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
